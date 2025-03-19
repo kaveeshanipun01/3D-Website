@@ -94,3 +94,17 @@ nav a:hover{
     transition: background-color 0.2s ease;
     cursor: pointer;
 }
+
+.btn-signing:hover{
+    background-color: white;
+}
+
+
+/*MAIN CONTENT*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(90vh - 6rem);
+}
