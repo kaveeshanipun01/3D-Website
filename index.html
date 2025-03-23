@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <img class="image-gradient" src="gradient.png" alt="gradient">
@@ -12,32 +13,44 @@
 
     <div class="container">
         <header>
-            <h1 class="logo">MCODE</h1>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">MCODE</h1>
 
             <nav>
-                <a href="#">COMPANY</a>
-                <a href="#">FEATURES</a>
-                <a href="#">RESOURCES</a>
-                <a href="#">DOC</a>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a>
+                <a data-aos="fade-down" data-aos-duration="2500"href="#">RESOURCES</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a>
                 
             </nav>
 
-            <button class="btn-signing">SIGNING</button>
+            <button  data-aos="fade-down" data-aos-duration="1500" class="btn-signing">SIGNING</button>
 
         </header>
 
         <main>
 
         <div class="content">
-            <div class="tag-box">
+            <div  data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"  data-aos-duration="1500" class="tag-box">
                 <div class="tag">INTRUCING &wedbar;</div>
             </div>
-            <h1>ENAIL FOR<br>DEVELOPERS</h1>
+            <h1 data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"  data-aos-duration="2000">E-BOT FOR<br>DEVELOPERS</h1>
 
-            <P class="discription">3D models into your website, add smooth animations, and create a responsive 3D 
+            <P data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"  data-aos-duration="2500"class="discription">3D models into your website, add smooth animations, and create a responsive 3D 
                 web design that looks amazing on any device.</P>
 
-            <div class="buttons">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"  data-aos-duration="3000" class="buttons">
 
                 <a href="#" class="btn-get-start">Documentation &gt;</a>
 
@@ -45,10 +58,18 @@
             </div>
         </div>
         </main>
-        <spline-viewer class="robot-3d" url="https://prod.spline.design/wcVgFHZBFHmWHHrM/scene.splinecode"></spline-viewer>
+        <spline-viewer data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"  data-aos-duration="3000" class="robot-3d" url="https://prod.spline.design/wcVgFHZBFHmWHHrM/scene.splinecode"></spline-viewer>
 
 
     </div>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
