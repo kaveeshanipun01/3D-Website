@@ -280,4 +280,26 @@ main{
     font-size: 0.8rem;
     padding: 0.8rem 2rem;
   }
+  
 }
+
+.mission, .team {
+    background-color: rgba(71, 164, 187, 0.8);
+    padding: 20px;
+    margin: 8px;
+    border-radius: 60px;
+    box-shadow: 0 4px 8px rgba(202, 40, 40, 0.1);
+
+}
+
+.small-spline {
+    width: 60; 
+    height: 53%; 
+    max-height: 200%;
+    max-width: 110%;
+    overflow: visible;
+}
+ .robot-3d{
+    display: block;
+    margin: 0 auto;
+ }
